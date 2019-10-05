@@ -30,7 +30,17 @@
         <!-- Content -->
         <div class="row">
             <div class="col">
-                <h3>Firebase Dev Day 2019 - Building dynamic website by Firebase Hosting x Cloud Run</h3>
+                <?php
+                    $randomed = array_rand($data);
+                ?>
+                <div class="card" style="width: 18rem;">
+                    <img src="<?=$data[$randomed]['image_url'];?>" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><?=$data[$randomed]['name'];?></h5>
+                        <p class="card-text"><?=$data[$randomed]['ref'];?></p>
+                        <a href="<?=$data[$randomed]['ref'];?>" class="btn btn-primary">Origin</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
