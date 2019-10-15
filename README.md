@@ -23,6 +23,7 @@ Firebase Dev Day 2019 - Building dynamic website by Firebase Hosting x Cloud Run
 
 2. Optional - Config gcloud.
     <https://cloud.google.com/sdk/docs/>
+    `gcloud auth configure-docker` : Configure Docker to use Google Cloud Platform
 
 3. Push the image to GCR.
     `docker push asia.gcr.io/gear2019v2/firebase-dev-day-2019:latest`
