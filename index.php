@@ -34,7 +34,7 @@
                     $randomed = array_rand($data);
                 ?>
                 <div class="card" style="width: 18rem;">
-                    <img src="<?=$data[$randomed]['image_url'];?>" class="card-img-top" style="min-width: 18rem;" alt="...">
+                    <img src="<?=$data[$randomed]['image_url'];?>" class="card-img-top" style="min-width: 16rem; min-height: 16rem;" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><?=$data[$randomed]['name'];?></h5>
                         <p class="card-text"><?=$data[$randomed]['ref'];?></p>
