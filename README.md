@@ -34,6 +34,7 @@ Firebase Dev Day 2019 - Building dynamic website by Firebase Hosting x Cloud Run
 ### Firebase Hosting
 
 1. Add config
+    `firebase projects:list` : To listing Firebase project
 
 2. Deploy
 
