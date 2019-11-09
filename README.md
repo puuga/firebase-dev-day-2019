@@ -24,6 +24,12 @@ Run with local source
 
 ## Demo
 
+### PHP App on container
+
+1. Dev PHP App
+
+2. Build Docker (PHP + Apache)
+
 ### Cloud Run
 
 1. Build Docker image locally.
