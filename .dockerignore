@@ -2,3 +2,4 @@ Dockerfile
 README.md
 .vscode
 .git
+s-build-push-deploy.sh
