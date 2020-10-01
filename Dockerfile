@@ -1,6 +1,6 @@
 # Use the official PHP 7.3 image.
 # https://hub.docker.com/_/php
-FROM php:7.3-apache
+FROM php:7.4-apache
 
 ENV PORT=8080
 
